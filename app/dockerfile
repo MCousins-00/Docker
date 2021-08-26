@@ -109,6 +109,5 @@ RUN set -x \
 EXPOSE 80
 
 STOPSIGNAL SIGQUIT
-COPY index.html /usr/share/nginx/html
-
+COPY . /usr/share/nginx/html
 CMD ["nginx", "-g", "daemon off;"]
