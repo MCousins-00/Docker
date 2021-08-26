@@ -2,7 +2,9 @@
 Get clone https://github.com/MCousins-00/Docker.git
 
 Give file excute rights.
--Chmod +x  instalation.sh
+-Chmod +x  installation.sh
+
+Run .\installation.sh
 
  -In the folder that contains docker-compose.yml run the below command:
 docker-compose build
