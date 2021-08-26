@@ -1,4 +1,4 @@
-                 How would this be configured to maximize availability:
+                 ####How would this be configured to maximize availability###
 
 Keep docker images small so they can launch fast by using small amounts of memory.
 
@@ -6,11 +6,11 @@ Keep process at minimum  to save CPU  and memory usage.
 
 Utilize orchestration to docker swarm to manage docker containers upon demand. 
 
-                 What loads would this spinup be able to handle.
+                 ###What loads would this spinup be able to handle.#####
+                 
                 Use nginx as  a proxy to load over specific port request 
                 
-                 How would logging, security be applied.
-
+                #####How would logging, security be applied#####
 
 Avoid running container with root privilege.
 
