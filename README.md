@@ -11,7 +11,7 @@
  docker-compose build
  docker-compose up
 
-4. To make it HA, you can add more containers by doing the following:
+4. To make it HA, you can add more containers by doing the following/ or run coontainers with dockerswarm:
  docker-compose up --scale app=3
 
  #The above command allows three containers to run the web app and this can be seen in the logs the site is accessed each time (simply refresh to see which app container is      loading the nginx webserver#
