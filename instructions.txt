@@ -17,7 +17,7 @@ a. make change
 b. git add .
 c. git commit -m "Give a description of which change was made"
 d. git push -u origin main
-e. username: marccousins2020@gmail.com
-f. password: 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
+e. username: ********
+f. password: ******
 
 
