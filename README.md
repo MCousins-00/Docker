@@ -1,4 +1,4 @@
-              Run Application on a Ubuntu Server/Steps to deploy the Web application on multiple containers. 
+          Run Application on a Ubuntu Server/Steps to deploy the Web application on multiple containers. 
 
 1 Pull files from github
  git clone https://github.com/MCousins-00/Docker.git
