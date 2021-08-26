@@ -1,12 +1,11 @@
-- Pull files from github
+1 Pull files from github
 Get clone https://github.com/MCousins-00/Docker.git
 
-Give file excute rights.
+2 Give file excute rights.
 -Chmod +x  installation.sh
-
 Run .\installation.sh
 
- -In the folder that contains docker-compose.yml run the below command:
+3 In the folder that contains docker-compose.yml run the below command:
 docker-compose build
 - Start the docker containers by the following
 docker-compose up
