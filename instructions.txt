@@ -1,7 +1,12 @@
-1. Pull files from github
-2. In the folder that contains docker-compose.yml run the below command:
+- Pull files from github
+Get clone https://github.com/MCousins-00/Docker.git
+
+Give file excute rights.
+-Chmod +x  instalation.sh
+
+ -In the folder that contains docker-compose.yml run the below command:
 docker-compose build
-3. Start the docker containers by the following
+- Start the docker containers by the following
 docker-compose up
 
 4. To make it HA, you can add more containers by doing the following:
