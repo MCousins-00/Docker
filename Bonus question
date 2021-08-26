@@ -1,0 +1,26 @@
+                 How would this be configured to maximize availability:
+
+Keep docker images small so they can launch fast by using small amounts of memory.
+
+Keep process at minimum  to save CPU  and memory usage.
+
+Utilize orchestration to docker swarm to manage docker containers upon demand. 
+
+                 What loads would this spinup be able to handle.
+                Use nginx as  a proxy to load over specific port request 
+                
+                 How would logging, security be applied.
+
+
+Avoid running container with root privilege.
+
+Keep credential in vaults with th euse of a third party application.
+
+Use vulnerability software to scan your software for any risk. 
+
+Utilize jfrog artifactory to store docker image away from the public. 
+
+Implement tls certs on web server. 
+
+Rotate database credential ever  45 days.            
+                
