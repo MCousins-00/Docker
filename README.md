@@ -11,14 +11,14 @@
  docker-compose build
  docker-compose up
 
-4. To make it HA, you can add more containers by doing the following/ or run coontainers with dockerswarm:
+ 4. To make it HA, you can add more containers by doing the following/ or run coontainers with dockerswarm:
  docker-compose up --scale app=3
 
  #The above command allows three containers to run the web app and this can be seen in the logs the site is accessed each time (simply refresh to see which app container is      loading the nginx webserver#
 
-5. If any changes needs to be made, ensure git is installed, for this purpose we are using Github.
+ 5. If any changes needs to be made, ensure git is installed, for this purpose we are using Github.
 
-6. Once a change is made, you may add it to my Public Git Repository by doing the following.
+ 6. Once a change is made, you may add it to my Public Git Repository by doing the following.
 
 a. make change
 b. git add .
